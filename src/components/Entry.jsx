@@ -24,8 +24,8 @@ function Entry(props) {
       <div className="bg-cyan-400 w-52 h-72 flex-shrink-0 rounded-lg overflow-hidden">
         <img
           className="w-full h-full object-cover"
-          src={props.imageUrl}
-          alt="Travel Journal Japan Image"
+          src={props.image.url}
+          alt={props.image.altText}
         />
       </div>
       <div className="flex flex-col justify-center">
