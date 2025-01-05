@@ -29,7 +29,7 @@ function Entry(props) {
         />
       </div>
       <div className="flex flex-col justify-center">
-        <div className="flex gap-4 mb-4 items-center h-8">
+        <div className="flex gap-4 mb-8 sm:mb-4 items-center h-12 sm:h-8">
           <span className="flex gap-1">
             <MapPin /> {props.country}
           </span>
