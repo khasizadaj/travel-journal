@@ -2,7 +2,7 @@ import Entry from "./Entry";
 
 export default function Entries({ entries }) {
   return (
-    <section className="grid grid-cols-1 xl:grid-cols-2 gap-16 p-16">
+    <section className="grid grid-cols-1 max-w-6xl w-full mx-auto gap-16 p-8 sm:p-16">
       {entries.map((entry) => {
         return (
           <Entry
