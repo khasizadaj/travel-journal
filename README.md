@@ -1,4 +1,4 @@
-# Scrimba Travel Journal
+# Travel Journal
 
 This is a simple React app that displays a list of travel entries from a JSON file.
 
@@ -37,3 +37,7 @@ npm run dev
 ```
 
 2. Open your browser and navigate to `http://localhost:5137`.
+
+## Disclaimer
+
+THis project is built along with [Learn React](https://scrimba.com/learn-react-c0e) course on Scrimba by [Bob Ziroll](https://scrimba.com/@bobziroll). It is not an official project of Scrimba, I am just learning React and building this project for fun. I made sure to add more features along the way.
