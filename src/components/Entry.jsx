@@ -20,8 +20,8 @@ function Entry(props) {
   }
 
   return (
-    <article className="flex gap-8 h-full w-full">
-      <div className="bg-cyan-400 w-52 h-72 flex-shrink-0 rounded-lg overflow-hidden">
+    <article className="flex flex-col sm:flex-row gap-8 h-full w-full">
+      <div className="bg-cyan-400 w-full sm:w-52 h-72 flex-shrink-0 rounded-lg overflow-hidden">
         <img
           className="w-full h-full object-cover"
           src={props.image.url}
@@ -37,7 +37,7 @@ function Entry(props) {
         </div>
         <div>
           <h2 className="text-4xl mb-2">{props.location}</h2>
-          <p className="text-l g font-bold mb-4">{props.dates}</p>
+          <p className="text-lg font-bold mb-4">{props.dates}</p>
           <p className="text-lg mb-4">{props.description}</p>
           <p>
             <span className="font-bold">Score:</span>{" "}
