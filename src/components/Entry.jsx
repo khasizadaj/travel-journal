@@ -16,7 +16,7 @@ function Entry(props) {
       <span className="bg-gray-800 text-gray-400 p-2 rounded">
         No location link available.
       </span>
-    )
+    );
   }
 
   return (
@@ -40,7 +40,8 @@ function Entry(props) {
           <p className="text-l g font-bold mb-4">{props.dates}</p>
           <p className="text-lg mb-4">{props.description}</p>
           <p>
-            <span className="font-bold">Score:</span> {props.score ? `${props.score} / 10` : "N/A" }
+            <span className="font-bold">Score:</span>{" "}
+            {props.score ? `${props.score} / 10` : "N/A"}
           </p>
         </div>
       </div>
