@@ -5,13 +5,7 @@ export default function Entries(props) {
     return (
       <Entry
         key={entry.id}
-        image={entry.image}
-        country={entry.country}
-        location={entry.location}
-        dates={entry.dates}
-        description={entry.description}
-        mapsUrl={entry.mapsUrl}
-        score={entry.score}
+        entry={entry}
       />
     );
   });
